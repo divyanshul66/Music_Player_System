@@ -1,0 +1,357 @@
+body {
+    background-color: #0c1027;
+}
+
+.header-logo img {
+    height: 75px;
+    margin-left: 35px;
+    margin-top: 20px;
+    float: left;
+}
+
+.header-label label {
+    margin: 15px 0px 0px 60px;
+    color: #cecfd3;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Calibri;
+}
+
+.header-searchbar {
+    /* display:inline; */
+    margin: 0px 0px 0px 400px;
+    width: 320px;
+    height: 35px;
+    background-color: #12193e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+input{
+    color:white;
+}
+.header-searchbar input {
+    flex: auto;
+    height: 34px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #12193e;
+}
+
+.header-searchbar i {
+    color: white;
+    margin: 0px 10px 0px 6px;
+    font-size: 16px;
+}
+
+.header-bell i {
+    font-size: 30px;
+    color: white;
+    margin: 10px 0px 0px 50px;
+    /* margin-left:70px; */
+}
+
+.profile {
+    margin: 10px 0px 0px 50px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.section-1 {
+    width: 70%;
+    display: inline-block;
+}
+
+.carousel {
+    width: 88%;
+    height: 300px;
+    /* width:820px; */
+    background-color: #12193e;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+
+.carousel .carousel-img {
+    height: 300px;
+    width: 310px;
+    background-image: linear-gradient(to bottom, transparent, rgba(25, 27, 65, 4)),
+        url("song-image/img.PNG");
+    background-size: cover;
+}
+
+.carousel-detail {
+    width: 67%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-right: 12px;
+}
+
+.description-part {
+    width: 100%;
+    height: max-content;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.main-heading .followers {
+    display: inline-block;
+}
+
+.main-heading h1 {
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    right: 57%;
+    top: 27%;
+}
+
+.followers {
+    position: absolute;
+    right: 31%;
+    top: 32%;
+    color: white;
+}
+
+.song-author {
+    color: white;
+    position: absolute;
+    right: 59.2%;
+    top: 34%;
+    font-size: 15px;
+    font-style: calibri;
+}
+
+.about-song {
+    color: white;
+    position: absolute;
+    left: 473px;
+    top: 38%;
+    width: 448px;
+    font-size: 13px;
+    font-style: arial;
+    font-weight: normal;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.carousel-btn .play {
+    border: 0px;
+    position: absolute;
+    right: 55.8%;
+    top: 55%;
+    height: 2.5vw;
+    width: 22vh;
+    color: white;
+    font-size: 1.2vw;
+    background-image: linear-gradient(-19deg, red 5%, blue 90%);
+}
+
+.carousel-btn .follow {
+    border: 0px;
+    position: absolute;
+    right: 45%;
+    top: 55%;
+    height: 2.5vw;
+    width: 20vh;
+    color: white;
+    font-size: 1.1vw;
+    background-color: transparent;
+}
+
+.track {
+    color: white;
+    position: absolute;
+    right: 56.2%;
+    top: 60%;
+    font-size: 12.9px;
+    font-weight: 100;
+    font-style: calibri;
+}
+
+.playlist-items .music-list {
+    height: 10vh;
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #202439;
+    margin-left: 120px;
+}
+
+.playlist-items .music-list img:hover {
+    background-color: #434c59;
+}
+
+.serial-no {
+    color: white;
+    margin-left: 12px;
+    font-weight: lighter;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img img {
+    min-width: 50px;
+    max-width: 50px;
+    margin: 5px 12% 0px 28%;
+    position: relative;
+}
+
+.play-btn {
+    background-color: transparent;
+    color: #cecfd3;
+    width: 48px;
+    height: 7.4%;
+    position: absolute;
+    top: 75.6%;
+    left: 12.7%;
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.1s;
+}
+
+.img .play-btn:hover {
+    opacity: 1.5;
+}
+
+.left div h5 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 0px 0px 0px 30px;
+}
+
+.left div p {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    margin: 0px 0px 0px 30px;
+}
+
+.center {
+    font-size: 16px;
+    color: rgb(185, 185, 185);
+    margin-right: 28%;
+    margin-top: -15px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    color: rgb(185, 185, 185);
+}
+
+.right .heart {
+    margin-right: 0px;
+    margin-left: 22%;
+}
+
+.right .plus {
+    margin-right: 80px;
+    margin-left: 30px;
+}
+
+.similar {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.section-heading {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 12px;
+    color: white;
+}
+
+/* adjusting for side by side display */
+.section-heading div,
+.section-heading h1 {
+    display: inline-block;
+}
+
+.section-heading h1 {
+    font-size: 23px;
+}
+
+.section-heading div {
+    position: absolute;
+    top: 22px;
+    left: 80%;
+    font-size: 12px;
+}
+
+.similar-artist-list {
+    height: 39vh;
+    overflow: scroll;
+}
+
+.similar-artist-list::-webkit-scrollbar {
+    display: none;
+}
+
+.list-item {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.list-item img {
+    width: 70%;
+    height: 70%;
+}
+
+.author {
+    color: rgb(185, 185, 185);
+    margin-left: -10px;
+    margin-top: -30px;
+}
+
+.author p {
+    margin-top: -10px;
+}
+
+.author-name {
+    font-size: 12px;
+    color: rgb(185, 185, 185);
+}
+
+.extra {
+    color: rgb(185, 185, 185);
+    margin-top: -55px;
+}
+
+.extra div {
+    margin-left: 3px;
+}
+
+.extra p {
+    margin-top: 5px;
+}
+
+.recent-heart {
+    margin-left: -50px;
+}
